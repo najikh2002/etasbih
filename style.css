@@ -76,7 +76,7 @@ small {
   h1 {
     position: absolute;
     z-index: 1;
-    left: 10vw;
+    top: 5vh;
   }
 
   span {
@@ -85,13 +85,13 @@ small {
   }
 
   .increase {
-    right: 5vw;
+    right: 10vw;
     position: absolute;
     z-index: 2;
   }
 
   .reset {
-    right: 23vw;
+    left: 10vw;
     position: absolute;
     z-index: 2;
   }
