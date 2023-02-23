@@ -8,7 +8,8 @@
 html,
 body,
 .btn,
-h1 {
+h1,
+.container {
   touch-action: manipulation;
 }
 
