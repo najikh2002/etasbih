@@ -40,6 +40,7 @@ span {
   margin: 10px 0;
   cursor: pointer;
   z-index: 2;
+  touch-action: manipulation;
 }
 
 .reset {
