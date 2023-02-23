@@ -65,3 +65,32 @@ footer {
 small {
   color: rgba(255, 255, 255, 0.4);
 }
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+
+  h1 {
+    position: absolute;
+    z-index: 1;
+    left: 10vw;
+  }
+
+  span {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .increase {
+    right: 5vw;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .reset {
+    right: 23vw;
+    position: absolute;
+    z-index: 2;
+  }
+}
