@@ -5,9 +5,14 @@
   font-family: "Rubik", sans-serif;
 }
 
+html,
+body,
+.btn {
+  touch-action: manipulation;
+}
+
 body {
   background-color: #c2cade;
-  touch-action: manipulation;
 }
 
 .container {
@@ -40,7 +45,6 @@ span {
   margin: 10px 0;
   cursor: pointer;
   z-index: 2;
-  touch-action: manipulation;
 }
 
 .reset {
@@ -76,7 +80,7 @@ small {
   h1 {
     position: absolute;
     z-index: 1;
-    top: 5vh;
+    top: 0;
   }
 
   span {
