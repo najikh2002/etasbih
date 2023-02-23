@@ -10,8 +10,7 @@ body,
 .btn,
 h1,
 .container,
-span,
-#counter {
+span {
   touch-action: manipulation;
   overflow-x: hidden;
 }
