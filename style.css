@@ -18,7 +18,7 @@ span {
 
 body {
   background-color: #c2cade;
-  max-height: 100vh;
+  max-height: 100%;
 }
 
 .container {
@@ -28,7 +28,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 h1 {
