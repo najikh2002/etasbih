@@ -1,6 +1,6 @@
 // buttons and counter text
 const counter = document.querySelector("#counter");
-const btns = document.querySelectorAll(".btn");
+const btns = document.querySelectorAll("#btn");
 const audio = new Audio("audio.mp3");
 const set = document.querySelector(".set");
 
