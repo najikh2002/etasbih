@@ -29,6 +29,7 @@ btns.forEach((btn) => {
         audio.play();
       }
     } else {
+      document.querySelector('input[type="number"]').value = "";
       count = 0;
       maxx = 0;
     }

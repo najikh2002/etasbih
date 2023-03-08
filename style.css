@@ -97,6 +97,7 @@ input:focus {
   justify-content: center;
   bottom: 12vh;
   width: 100vw;
+  margin-top: 3vh;
 }
 
 .increase {
