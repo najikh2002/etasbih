@@ -16,6 +16,7 @@ document
     set.addEventListener("click", () => {
       maxx = max;
       count = 0;
+      counter.textContent = count;
     });
   });
 
