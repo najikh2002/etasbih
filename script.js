@@ -15,9 +15,7 @@ document
   .addEventListener("input", function () {
     const max = this.value;
     set.addEventListener("click", () => {
-      maxx = max;
-      count = 0;
-      counter.textContent = count;
+      reset();
     });
   });
 
@@ -54,11 +52,11 @@ btns.forEach((btn) => {
 });
 
 // disable scroll
-var element = document.querySelector("body");
-element.addEventListener(
-  "touchmove",
-  function (event) {
-    event.preventDefault();
-  },
-  false
-);
+// var element = document.querySelector("body");
+// element.addEventListener(
+//   "touchmove",
+//   function (event) {
+//     event.preventDefault();
+//   },
+//   false
+// );
