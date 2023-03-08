@@ -54,7 +54,7 @@ btns.forEach((btn) => {
 });
 
 // disable scroll
-var element = document.querySelector(".container");
+var element = document.querySelector("body");
 element.addEventListener(
   "touchmove",
   function (event) {
