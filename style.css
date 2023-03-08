@@ -124,6 +124,7 @@ footer {
   text-align: center;
   color: #c2cade;
   padding: 1vh 0;
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
