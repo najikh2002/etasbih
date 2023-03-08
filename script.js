@@ -52,3 +52,13 @@ btns.forEach((btn) => {
     }
   });
 });
+
+// disable scroll
+var element = document.querySelector(".container");
+element.addEventListener(
+  "touchmove",
+  function (event) {
+    event.preventDefault();
+  },
+  false
+);
