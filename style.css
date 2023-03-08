@@ -42,6 +42,10 @@ span {
   color: #272f3d;
 }
 
+button {
+  pointer-events: visible;
+}
+
 .btn {
   background: none;
   outline: none;
@@ -111,10 +115,15 @@ input:focus {
 }
 
 footer {
-  text-align: center;
+  display: block;
   position: absolute;
-  bottom: 0.2vh;
-  color: #272f3d;
+  bottom: 0;
+  width: 100vw;
+  height: 5vh;
+  background-color: #272f3d;
+  text-align: center;
+  color: #c2cade;
+  padding: 1vh 0;
 }
 
 @media (min-width: 768px) {
@@ -143,12 +152,11 @@ footer {
     position: absolute;
     left: 10vw;
     top: 13vh;
-    z-index: 2;
   }
 
   #max {
     margin: 0;
     padding: 0;
-    height: 10 vh;
+    height: 10vh;
   }
 }

@@ -7,6 +7,7 @@ const set = document.querySelector(".set");
 // variabel nilai dan maks
 let count = 0;
 let maxx = 0;
+let button = false;
 
 // pengamnilan nilai input dan fungsi tombol set
 document
@@ -20,21 +21,34 @@ document
     });
   });
 
+// fungsi reset
+const reset = () => {
+  document.querySelector('input[type="number"]').value = "";
+  count = 0;
+  maxx = 0;
+  counter.textContent = count;
+};
+
 btns.forEach((btn) => {
   btn.addEventListener("click", (e) => {
     const styles = e.currentTarget.classList;
 
-    if (styles.contains("increase")) {
-      count++;
-      if (maxx > 0 && count >= maxx) {
-        audio.play();
+    if (!button) {
+      if (styles.contains("increase")) {
+        count++;
+        if (maxx > 0 && count >= maxx) {
+          audio.play();
+          button = true;
+          document.querySelector(".reset").addEventListener("click", () => {
+            button = false;
+            reset();
+          });
+        }
+      } else {
+        reset();
       }
-    } else {
-      document.querySelector('input[type="number"]').value = "";
-      count = 0;
-      maxx = 0;
-    }
 
-    counter.textContent = count;
+      counter.textContent = count;
+    }
   });
 });
