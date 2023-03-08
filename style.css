@@ -127,7 +127,7 @@ footer {
   margin-bottom: 0;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .container {
     flex-direction: row;
   }
@@ -160,4 +160,4 @@ footer {
     padding: 0;
     height: 10vh;
   }
-}
+} */
