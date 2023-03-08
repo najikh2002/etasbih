@@ -18,6 +18,7 @@ span {
 
 body {
   background-color: #c2cade;
+  max-height: 100vh;
 }
 
 .container {
