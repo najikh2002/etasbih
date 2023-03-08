@@ -18,7 +18,6 @@ span {
 
 body {
   background-color: #c2cade;
-  max-height: 100%;
 }
 
 .container {
@@ -29,7 +28,6 @@ body {
   align-items: center;
   flex-direction: column;
   overflow: hidden;
-  max-height: 100vh;
 }
 
 h1 {

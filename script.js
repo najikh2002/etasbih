@@ -15,7 +15,9 @@ document
   .addEventListener("input", function () {
     const max = this.value;
     set.addEventListener("click", () => {
-      reset();
+      maxx = max;
+      count = 0;
+      counter.textContent = count;
     });
   });
 
