@@ -27,7 +27,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  overflow: auto;
+  overflow: hidden;
 }
 
 h1 {
