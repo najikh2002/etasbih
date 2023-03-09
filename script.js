@@ -39,6 +39,11 @@ btns.forEach((btn) => {
         if (maxx > 0 && count >= maxx) {
           audio.play();
           button = true;
+          setTimeout(() => {
+            count = 0;
+            counter.textContent = count;
+            button = false;
+          }, 4500);
           document.querySelector(".reset").addEventListener("click", () => {
             button = false;
             reset();
