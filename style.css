@@ -114,17 +114,12 @@ input:focus {
   margin: 10px 0;
 }
 
-footer {
-  display: block;
-  position: absolute;
+.footer {
+  height: 4vh;
+  position: fixed;
   bottom: 0;
-  width: 100vw;
-  height: 5vh;
-  background-color: #272f3d;
   text-align: center;
-  color: #c2cade;
-  padding: 1vh 0;
-  margin-bottom: 0;
+  color: #272f3d;
 }
 
 /* @media (min-width: 768px) {
