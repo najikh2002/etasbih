@@ -36,10 +36,20 @@ body {
   font-size: large;
 }
 
+.mid {
+  display: flex;
+  flex-direction: column;
+}
+
 .content {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.content-2 {
+  display: flex;
+  justify-content: center;
 }
 
 span {
@@ -49,6 +59,8 @@ span {
 }
 
 .increase {
+  display: flex;
+  justify-content: center;
   background-color: #272f3d;
   outline: none;
   border: 1px solid #272f3d;
@@ -175,9 +187,7 @@ input:focus {
   }
 
   .footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    height: 8.5vh;
-    padding: 2.5vh 0;
   }
 }
