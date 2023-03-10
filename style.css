@@ -88,7 +88,7 @@ input {
   border: 2.5px solid;
   border-color: #272f3d;
   width: 70px;
-  height: 4vh;
+  height: 5vh;
   background-color: #c2cade;
   color: #272f3d;
   text-align: center;
@@ -130,14 +130,54 @@ input:focus {
   padding: 0.8vh 0;
 }
 
-/* @media (min-width: 768px) {
-  .content {
-    margin: 2vh 0;
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-around;
   }
-  .increase {
-    margin: 2vh 0;
+
+  h1 {
+    position: absolute;
+    left: 5vw;
+    top: 40vh;
   }
+
+  .mid {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-2 {
+    display: flex;
+    justify-content: center;
+  }
+
   .row {
-    margin: 2vh 0;
+    position: absolute;
+    right: 5vw;
+    top: -8vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-} */
+
+  .set,
+  .reset {
+    display: block;
+    margin-left: 2.4vh;
+  }
+
+  #max {
+    height: 13vh;
+    font-size: x-large;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    height: 8.5vh;
+    padding: 2.5vh 0;
+  }
+}
